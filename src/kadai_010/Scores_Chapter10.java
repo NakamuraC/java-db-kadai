@@ -18,7 +18,7 @@ public class Scores_Chapter10 {
 			con = DriverManager.getConnection(
 					"jdbc:mysql://localhost/challenge_java",
 					"root",
-					"Benkyou@18");
+					"");
 
 			System.out.println("データベース接続成功：" + con);
 			System.out.println("レコード更新を実行します");
